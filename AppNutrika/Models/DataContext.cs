@@ -8,6 +8,12 @@ namespace AppNutrika.Models
 {
     public class DataContext : DbContext
     {
+        protected override void  OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            var connection = "server=localhost:3306;user=miguel; password=fosso2022; database=bestfarmer_online_bd";
+            var serverVersion = new MySqlServerVersion(new Version(10, 6, 13));
+            optionsBuilder.UseMySql(connection, serverVersion); 
+        }
 
 
         public DataContext(DbContextOptions<DataContext> options) : base(options)

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\AllProjetsNiovarTechnologies\\ProjetAppNutrika\\AppNutrika\\AppNutrika.csproj": {}
+    "D:\\AllProjetsNiovarTechnologies\\ProjetAppNutrika\\NutrikaGit\\ApiNutrika\\AppNutrika\\AppNutrika.csproj": {}
   },
   "projects": {
-    "D:\\AllProjetsNiovarTechnologies\\ProjetAppNutrika\\AppNutrika\\AppNutrika.csproj": {
+    "D:\\AllProjetsNiovarTechnologies\\ProjetAppNutrika\\NutrikaGit\\ApiNutrika\\AppNutrika\\AppNutrika.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AllProjetsNiovarTechnologies\\ProjetAppNutrika\\AppNutrika\\AppNutrika.csproj",
+        "projectUniqueName": "D:\\AllProjetsNiovarTechnologies\\ProjetAppNutrika\\NutrikaGit\\ApiNutrika\\AppNutrika\\AppNutrika.csproj",
         "projectName": "AppNutrika",
-        "projectPath": "D:\\AllProjetsNiovarTechnologies\\ProjetAppNutrika\\AppNutrika\\AppNutrika.csproj",
+        "projectPath": "D:\\AllProjetsNiovarTechnologies\\ProjetAppNutrika\\NutrikaGit\\ApiNutrika\\AppNutrika\\AppNutrika.csproj",
         "packagesPath": "C:\\Users\\Miguel-Dev\\.nuget\\packages\\",
-        "outputPath": "D:\\AllProjetsNiovarTechnologies\\ProjetAppNutrika\\AppNutrika\\obj\\",
+        "outputPath": "D:\\AllProjetsNiovarTechnologies\\ProjetAppNutrika\\NutrikaGit\\ApiNutrika\\AppNutrika\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -72,7 +72,7 @@
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[7.0.2, )"
             },
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
@@ -84,7 +84,7 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[7.0.2, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
@@ -93,6 +93,10 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
               "version": "[7.0.0, )"
             },

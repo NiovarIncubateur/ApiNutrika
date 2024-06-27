@@ -17,7 +17,10 @@ builder.Services.AddControllers();
 //Configuration Migration et HangFire
 builder.Services.AddDbContext<DataContext>(options =>
 {
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+    string connection = builder.Configuration.GetConnectionString("DefaultConnection");
+    var serverVersion = new MySqlServerVersion(new Version(10, 4, 27));
+
+    options.UseMySql(connection, serverVersion);
 });
 builder.Services.AddHangfire(x =>
 {
