@@ -10,7 +10,7 @@ namespace AppNutrika.Models
     {
         protected override void  OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            var connection = "server=localhost:3306;user=miguel; password=fosso2022; database=bestfarmer_online_bd";
+            var connection = "user=admin; password=Niovar2024; database=nutrikadb";
             var serverVersion = new MySqlServerVersion(new Version(10, 6, 13));
             optionsBuilder.UseMySql(connection, serverVersion); 
         }
